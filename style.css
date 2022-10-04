@@ -1,0 +1,13 @@
+body {
+  margin: auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+#main-container {
+  border: solid 2px;
+
+  width: 500px;
+  height: 320px;
+  text-align: center;
+  margin: auto;
+}
