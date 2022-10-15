@@ -6,13 +6,10 @@ document.getElementById("demo").onclick = function () {
 
 function losowanie() {
   const set = new Set();
-  for (i = 1; i <= 5; i++) {
-    set.add(Math.floor(Math.random(1) * 49) + 1);
-  }
-  console.log(set.size); //dla podgladu
+
   do {
     set.add(Math.floor(Math.random(1) * 49) + 1);
-    console.log(set); //dla podgladu
+    //console.log(set); //dla podgladu
   } while (set.size <= 5);
 
   let zbior = Array.from(set);
